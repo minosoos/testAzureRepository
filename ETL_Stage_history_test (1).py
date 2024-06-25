@@ -1,10 +1,6 @@
 # Databricks notebook source
 #Parametri ricevuti da ADF
-#dbutils.widgets.text("Param1", "", "")
-#p_Param1 = dbutils.widgets.get("Param1") 
-#if p_Param1 == "":
-#    raise RuntimeError("The 'Param1' parameter is mandatory")
-    
+
 dbutils.widgets.removeAll()
 
 
